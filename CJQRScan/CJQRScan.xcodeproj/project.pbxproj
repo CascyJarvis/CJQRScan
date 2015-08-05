@@ -23,7 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		F6405EC11B71FA3400CA4000 /* MaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6405EB11B71FA3400CA4000 /* MaskView.h */; };
-		F6405EC31B71FA3400CA4000 /* ScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6405EB31B71FA3400CA4000 /* ScanViewController.h */; };
+		F6405EC31B71FA3400CA4000 /* ScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6405EB31B71FA3400CA4000 /* ScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6405EC51B71FA3400CA4000 /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6405EB51B71FA3400CA4000 /* MaskView.m */; };
 		F6405EC61B71FA3400CA4000 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = F6405EB71B71FA3400CA4000 /* cancel.png */; };
 		F6405EC71B71FA3400CA4000 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6405EB81B71FA3400CA4000 /* cancel@2x.png */; };
@@ -521,6 +521,7 @@
 				F6405ED11B72021A00CA4000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6F1C3B51B71C6E2007C0535 /* Build configuration list for PBXProject "CJQRScan" */ = {
 			isa = XCConfigurationList;
