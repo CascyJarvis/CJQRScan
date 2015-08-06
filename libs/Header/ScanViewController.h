@@ -20,6 +20,8 @@
 
 @interface ScanViewController : UIViewController
 
++ (instancetype)viewController;
+
 @property (nonatomic , assign) id <ScanDelegate> delegate;
 
 @end

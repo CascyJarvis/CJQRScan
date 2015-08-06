@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6405ED61B72024000CA4000 /* CJQRScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6405ED51B72024000CA4000 /* CJQRScan.framework */; };
-		F6405ED71B72024000CA4000 /* CJQRScan.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6405ED51B72024000CA4000 /* CJQRScan.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F69BD9661B7309450073B227 /* CJQRScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD9651B7309450073B227 /* CJQRScan.framework */; };
+		F69BD9671B7309450073B227 /* CJQRScan.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F69BD9651B7309450073B227 /* CJQRScan.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6F1C31A1B71C514007C0535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C3191B71C514007C0535 /* main.m */; };
 		F6F1C31D1B71C514007C0535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C31C1B71C514007C0535 /* AppDelegate.m */; };
 		F6F1C3201B71C514007C0535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F1C31F1B71C514007C0535 /* ViewController.m */; };
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F6405ED71B72024000CA4000 /* CJQRScan.framework in Embed Frameworks */,
+				F69BD9671B7309450073B227 /* CJQRScan.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F6405ED51B72024000CA4000 /* CJQRScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CJQRScan.framework; path = "/Users/prawn/Library/Developer/Xcode/DerivedData/CJQRScan-avycagtcxgmmzqfqxbmcjxqtrtmm/Build/Products/Debug-iphoneos/CJQRScan.framework"; sourceTree = "<absolute>"; };
+		F69BD9651B7309450073B227 /* CJQRScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CJQRScan.framework; path = "/Users/prawn/Library/Developer/Xcode/DerivedData/CJQRScan-avycagtcxgmmzqfqxbmcjxqtrtmm/Build/Products/Debug-iphoneos/CJQRScan.framework"; sourceTree = "<absolute>"; };
 		F6F1C3141B71C514007C0535 /* CJQRScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJQRScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F1C3181B71C514007C0535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6F1C3191B71C514007C0535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6405ED61B72024000CA4000 /* CJQRScan.framework in Frameworks */,
+				F69BD9661B7309450073B227 /* CJQRScan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,6 @@
 		F6F1C30B1B71C514007C0535 = {
 			isa = PBXGroup;
 			children = (
-				F6405ED51B72024000CA4000 /* CJQRScan.framework */,
 				F6F1C3161B71C514007C0535 /* CJQRScanDemo */,
 				F6F1C3301B71C514007C0535 /* CJQRScanDemoTests */,
 				F6F1C3151B71C514007C0535 /* Products */,
@@ -100,6 +99,7 @@
 		F6F1C3161B71C514007C0535 /* CJQRScanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F69BD9651B7309450073B227 /* CJQRScan.framework */,
 				F6F1C31B1B71C514007C0535 /* AppDelegate.h */,
 				F6F1C31C1B71C514007C0535 /* AppDelegate.m */,
 				F6F1C31E1B71C514007C0535 /* ViewController.h */,

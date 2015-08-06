@@ -1,6 +1,0 @@
-framework module CJQRScan {
-  umbrella header "CJQRScan.h"
-
-  export *
-  module * { export * }
-}
